@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+    <span id="Player">0</span>
+    <span id="Tie">0</span>
+    <span id="Ai">0</span>
+    <p id="playerchoice"></p>
+    <p id="aichoice"></p>
+    <p id="testing">Result: </p>
+    <div id="buttonoptions">
+        <button id="Rock" onclick="updateChoice(this.id)">
+            <img src="rock_edited.png" alt="rock :DD"> 
+        </button>
+        <button id="Paper" onclick="updateChoice(this.id)">
+            <img src="paper_edited.png" alt="rock :DD">   
+        </button>
+        <button id="Scissors" onclick="updateChoice(this.id)">
+            <img src="scissors_edited.png" alt="rock :DD"> 
+        </button>
+    </div>
+    <button onclick="resetResults()" id="resetbutton">Reset</button>
+    <div id="playerresult">
+        
+    </div>
+
+
+
+    <script type="text/javascript" src="rockpaperscissors.js"></script>
+</body>
+</html>
